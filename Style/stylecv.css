@@ -1,0 +1,56 @@
+*{
+    background-color:white;
+}
+img{
+    display:inline-block;
+    height: 75px;
+    width: 150px;
+    object-fit: contain;
+    background-color:gray;
+}
+
+header{
+    max-width: 3000px;
+    max-height: 300px;
+    font:50px;
+    background-color:gray;
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+}
+
+h1,h3{
+    text-align: center;
+    display:inline-block;
+    color:white;
+    background-color:gray;
+}
+
+.cabecera{
+    color:white;
+    background-color:gray;
+}
+
+.lateral{
+    float:right;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    font-style:oblique;
+}
+
+.show{
+    font:30px;
+    margin:2px;
+    border-style:dotted;
+    max-width: 800px;
+}
+
+footer{
+    border-width:dotted;
+    border-color:white;
+}
+
+address{
+    margin:5px;
+}
